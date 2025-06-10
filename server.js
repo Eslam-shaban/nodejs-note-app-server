@@ -11,7 +11,8 @@ import crypto from 'crypto';
 const app = express();
 
 // Load environment variables from config.env file
-dotenv.config({ path: "./config/config.env" });
+// dotenv.config({ path: "./config/config.env" });
+dotenv.config();
 
 // Middleware
 app.use(express.json());
